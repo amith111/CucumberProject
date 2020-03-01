@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Product Search should appear",
+        "description": "",
+        "id": "product-search-from-amazon.com;product-search-should-appear",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10279282300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "AmazonStepDef.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1880812500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search for \"Software Development\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Software Development",
+                  "offset": 17
+                }
+              ],
+              "location": "AmazonStepDef.user_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2788356600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on search button",
+            "match": {
+              "location": "AmazonStepDef.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1620708900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "results should appear for \"Software Development \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Software Development ",
+                  "offset": 27
+                }
+              ],
+              "location": "AmazonStepDef.results_should_appear(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Product Search should  appear",
+        "description": "",
+        "id": "product-search-from-amazon.com;product-search-should--appear",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9445342800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "AmazonStepDef.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 773953100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user search for \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 17
+                }
+              ],
+              "location": "AmazonStepDef.user_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2667469600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on search button",
+            "match": {
+              "location": "AmazonStepDef.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1040911900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "results should appear for \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 27
+                }
+              ],
+              "location": "AmazonStepDef.results_should_appear(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Product search from amazon.com",
+    "description": "User wants to search for Product",
+    "id": "product-search-from-amazon.com",
+    "keyword": "Feature",
+    "uri": "Amazon_Login_Test.feature"
+  }
+]

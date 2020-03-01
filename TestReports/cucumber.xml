@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="30.496837">
+<testcase classname="Product search from amazon.com" name="Product Search should appear" time="16.56916">
+<system-out><![CDATA[Given user is on Home Page..................................................passed
+When user search for "Software Development".................................passed
+And click on search button..................................................passed
+Then results should appear for "Software Development "......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product search from amazon.com" name="Product Search should  appear" time="13.927677">
+<system-out><![CDATA[Given user is on Home Page..................................................passed
+When user search for " "....................................................passed
+And click on search button..................................................passed
+Then results should appear for " "..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
